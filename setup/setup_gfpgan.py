@@ -1,4 +1,4 @@
-import subprocess
+import os
 
 commands = [
     "cd /workspace && git clone https://github.com/TencentARC/GFPGAN.git",
@@ -17,6 +17,6 @@ https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.1/RealESRGAN_x2plu
 ]
 
 for cmd in commands:
-    subprocess.run(cmd, shell=True, check=True)
+    os.system(cmd)
 
 print("✅ GFPGAN Setup Complete")
