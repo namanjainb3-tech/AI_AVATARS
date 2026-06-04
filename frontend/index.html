@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Conversely AI</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="page">
+
+    <div class="hero">
+        <h1>Conversely AI</h1>
+        <p>Create ultra realistic AI avatar videos in seconds</p>
+        <p class="mini">Trusted AI Video Generation for Sales • Marketing • HR</p>
+    </div>
+
+    <div class="card">
+
+        <label class="upload-box">
+            <input type="file" id="image" hidden>
+            <span>📸 Upload Face Image</span>
+            <img id="preview" class="hidden preview-img">
+        </label>
+
+        <label class="upload-box">
+            <input type="file" id="voice" hidden>
+            <span>🎙 Upload Voice Sample</span>
+        </label>
+
+        <textarea id="text" placeholder="Enter your script..."></textarea>
+
+        <button type="button" onclick="generateAvatar()">Generate Premium Avatar</button>
+
+        <div id="loader" class="hidden">
+            ⚡ Creating realistic avatar...
+        </div>
+
+        <div id="result"></div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
