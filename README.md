@@ -374,7 +374,7 @@ GET /job-status/{job_id}
 
 ## User Uploads
 
-![Output](assets/user_upload.jpeg)
+![Output](assets/user_uploads.jpeg)
 
 ---
 
