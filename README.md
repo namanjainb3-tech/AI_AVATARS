@@ -31,7 +31,7 @@ The user only uploads three assets while the platform handles the entire AI pipe
 
 # 🏗️ System Architecture
 
-![Architecture](assets/pipeline_avatar.png)
+![Architecture](assets/pipeline_avatar.jpeg)
 
 The system consists of:
 
