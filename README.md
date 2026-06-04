@@ -14,7 +14,7 @@ Beyond model integration, the system includes a FastAPI backend, automated job q
 
 Generating high-quality AI avatars requires multiple independent AI systems working together.
 
-Conversely AI automates the entire process:
+This System automates the entire process:
 
 ### Input
 
