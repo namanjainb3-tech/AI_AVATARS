@@ -368,19 +368,13 @@ GET /job-status/{job_id}
 
 ## Frontend
 
-![Frontend](assets/frontend.png)
+![Frontend](assets/frontend.jpeg)
 
 ---
 
-## Architecture
+## User Uploads
 
-![Architecture](assets/architecture.png)
-
----
-
-## Generated Avatar
-
-![Output](assets/output.png)
+![Output](assets/user_upload.jpeg)
 
 ---
 
