@@ -8,9 +8,9 @@ import cv2
 
 BASE_FOLDER = "/content/drive/MyDrive/avatar_pipeline"
 
-FISHSPEECH_URL = "https://iqbx1e38g1twhy-7860.proxy.runpod.net"
-SEEDVC_URL = "https://iqbx1e38g1twhy-7862.proxy.runpod.net"
-CODEFORMER_URL = "https://iqbx1e38g1twhy-7863.proxy.runpod.net"
+FISHSPEECH_URL = YOUR_FISHSPEECH_URL
+SEEDVC_URL = YOUR_SEEDVC_URL
+CODEFORMER_URL = YOUR_CODEFORMER_URL
 
 print("FishSpeech:", FISHSPEECH_URL)
 print("SeedVC:", SEEDVC_URL)
